@@ -12,5 +12,6 @@ collections:
     name: "test"
     folder: "_content/test"
     create: true
+    identifier_field: test
     fields:
       - {label: "Test", name: "test", widget: "string"}
