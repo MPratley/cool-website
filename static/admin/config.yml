@@ -7,3 +7,10 @@ publish_mode: editorial_workflow
 media_folder: "static/media" # Media files will be stored in the repo under images/uploads
 public_folder: "/media"
 
+collections:
+  - label: "Test"
+    name: "test"
+    folder: "_content/test"
+    create: true
+    fields:
+      - {label: "Test", name: "test", widget: "string"}
