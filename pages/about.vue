@@ -1,17 +1,10 @@
 <template>
   <section class="container">
     <div>
-      <h1 class="title">
-        Marcus Pratley is a developer
-      </h1>
-      <h2 class="subtitle">
-        This is his website
-      </h2>
+      <h1 class="title">cool website</h1>
+      <h2 class="subtitle">A cool and good website that makes people go &#34;wow&#34; and &#34;ooo&#34;</h2>
       <div class="links">
-        <a
-          href="/about"
-          class="button--green"
-        >About</a>
+        <a href="/" class="button--green">Home</a>
       </div>
     </div>
   </section>
