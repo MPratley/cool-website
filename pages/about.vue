@@ -1,10 +1,16 @@
 <template>
   <section class="container">
     <div>
-      <h1 class="title">cool website</h1>
-      <h2 class="subtitle">A cool and good website that makes people go &#34;wow&#34; and &#34;ooo&#34;</h2>
+      <h1 class="title">
+        cool website
+      </h1>
+      <h2 class="subtitle">
+        A cool and good website that makes people go &#34;wow&#34; and &#34;ooo&#34;
+      </h2>
       <div class="links">
-        <a href="/" class="button--green">Home</a>
+        <NuxtLink to="/" class="button--green">
+          Home
+        </NuxtLink>
       </div>
     </div>
   </section>

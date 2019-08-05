@@ -8,10 +8,12 @@
         This is his website
       </h2>
       <div class="links">
-        <a
-          href="/about"
+        <NuxtLink
+          to="/about"
           class="button--green"
-        >About</a>
+        >
+          About
+        </NuxtLink>
       </div>
     </div>
   </section>
