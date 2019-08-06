@@ -8,7 +8,7 @@
         A cool and good website that makes people go &#34;wow&#34; and &#34;ooo&#34;
       </h2>
       <div class="links">
-        <NuxtLink to="/" class="button--green">
+        <NuxtLink to="/" class="button--grey">
           Home
         </NuxtLink>
       </div>

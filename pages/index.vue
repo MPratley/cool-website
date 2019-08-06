@@ -10,7 +10,7 @@
       <div class="links">
         <NuxtLink
           to="/about"
-          class="button--green"
+          class="button--grey"
         >
           About
         </NuxtLink>
