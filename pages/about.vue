@@ -9,7 +9,7 @@
       </h2>
       <div class="links">
         <NuxtLink to="/" class="button--grey">
-          Home
+          Thanks
         </NuxtLink>
       </div>
     </div>
@@ -38,14 +38,13 @@ export default {
   display: block;
   font-weight: 400;
   font-size: 4em;
-  color: #35495e;
   text-align: center;
+  color: var(--theme-color-accent);
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
 }

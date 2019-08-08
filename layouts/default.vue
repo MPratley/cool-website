@@ -15,6 +15,17 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+
+  --theme-color-dark: #365b6b;
+  --theme-color-mid: #297799;
+  --theme-color-accent-light: #abffeb;
+  --theme-color-accent: #ff8c80;
+  --theme-color-light: rgb(226, 220, 221);
+}
+
+body {
+  background-color: var(--theme-color-dark);
+  color: var(--theme-color-light);
 }
 
 *,
@@ -42,7 +53,7 @@ html {
   display: inline-block;
   border-radius: 4px;
   border: 1px solid #35495e;
-  color: #35495e;
+  color: var(--theme-color-light);
   text-decoration: none;
   padding: 10px 30px;
   margin-left: 15px;
@@ -50,6 +61,6 @@ html {
 
 .button--grey:hover {
   color: #fff;
-  background-color: #35495e;
+  background-color: var(--theme-color-mid);
 }
 </style>

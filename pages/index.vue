@@ -2,7 +2,7 @@
   <section class="container">
     <div>
       <h1 class="title">
-        Marcus Pratley <br> is ostensibly a developer
+        Marcus Pratley <br> is a developer
       </h1>
       <h2 class="subtitle">
         This is his website
@@ -12,7 +12,7 @@
           to="/about"
           class="button--grey"
         >
-          About
+          Yes
         </NuxtLink>
       </div>
     </div>
@@ -41,13 +41,12 @@ export default {
   display: block;
   font-weight: 400;
   font-size: 4em;
-  color: #35495e;
+  color: var(--theme-color-accent);
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
