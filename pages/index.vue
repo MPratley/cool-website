@@ -42,7 +42,7 @@ export default {
   align-items: center;
   text-align: center;
 }
-
+/* 
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -50,12 +50,13 @@ export default {
   font-weight: 400;
   font-size: 4em;
   color: var(--theme-color-accent);
-}
+} */
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
   word-spacing: 5px;
+  padding-top: 10vw;
   padding-bottom: 15px;
 }
 
@@ -70,29 +71,32 @@ export default {
   font-size: calc(10vw);
   font-family: Verdana, serif;
   margin: 0;
+  line-height: 0;
 }
 
 .first {
-  text-align: left;
-  position: absolute;
   color: palevioletred;
-  top: 0px;
-  left: 0px;
+  margin: 0;
+  margin-left: -5vw;
 }
 
 .second {
-  position: absolute;
   color: navajowhite;
   mix-blend-mode: color-burn;
-  top: calc(5vw);
-  left: calc(5vw);
+  margin: 0;
+  margin-top: 5vw;
+  margin-left: 0vw;
+  /* top: calc(5vw);
+  left: calc(5vw); */
 }
 
 .third {
-  position: absolute;
-  top: calc(10vw);
-  left: calc(10vw);
+  /* top: calc(10vw);
+  left: calc(10vw); */
   color: darkturquoise;
   mix-blend-mode: color-burn;
+  margin: 0;
+  margin-top: 5vw;
+  margin-left: 5vw;
 }
 </style>
