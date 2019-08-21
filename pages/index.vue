@@ -1,11 +1,19 @@
 <template>
   <section class="container">
     <div>
-      <h1 class="title">
-        Marcus Pratley <br> is a developer
-      </h1>
+      <div class="name-container">
+        <h1 class="first">
+          Marcus
+        </h1>
+        <h1 class="second">
+          James
+        </h1>
+        <h1 class="third">
+          Pratley
+        </h1>
+      </div>
       <h2 class="subtitle">
-        This is his website
+        is a developer, this is his website
       </h2>
       <div class="links">
         <NuxtLink
@@ -53,5 +61,38 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+</style>
+
+<style scoped>
+.name-container {
+  /* position: relative; */
+  font-size: calc(10vw);
+  font-family: Verdana, serif;
+  margin: 0;
+}
+
+.first {
+  text-align: left;
+  position: absolute;
+  color: palevioletred;
+  top: 0px;
+  left: 0px;
+}
+
+.second {
+  position: absolute;
+  color: navajowhite;
+  mix-blend-mode: color-burn;
+  top: calc(5vw);
+  left: calc(5vw);
+}
+
+.third {
+  position: absolute;
+  top: calc(10vw);
+  left: calc(10vw);
+  color: darkturquoise;
+  mix-blend-mode: color-burn;
 }
 </style>
