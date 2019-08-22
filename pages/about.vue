@@ -1,9 +1,14 @@
 <template>
   <section class="container">
     <div>
-      <h1 class="title">
-        cool website
-      </h1>
+      <div class="name-container">
+        <h1 class="first">
+          Cool
+        </h1>
+        <h1 class="second">
+          Website
+        </h1>
+      </div>
       <h2 class="subtitle">
         A cool and good website that makes people go &#34;wow&#34; and &#34;ooo&#34;
       </h2>
@@ -44,12 +49,49 @@ export default {
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
+  font-size: 5vw;
   word-spacing: 5px;
+  padding-top: 10vw;
   padding-bottom: 15px;
 }
 
 .links {
   padding-top: 15px;
+}
+</style>
+
+<style scoped>
+.name-container {
+  /* position: relative; */
+  font-size: calc(10vw);
+  font-family: Verdana, serif;
+  margin: 0;
+  isolation: isolate;
+  line-height: 0;
+}
+
+.first {
+  color: palevioletred;
+  margin: 0;
+  z-index: 1;
+  margin-left: -5vw;
+}
+
+.second {
+  color: navajowhite;
+  mix-blend-mode: soft-light;
+  margin: 0;
+  z-index: 1;
+  margin-top: 5vw;
+  margin-left: 0vw;
+}
+
+.third {
+  color: darkturquoise;
+  mix-blend-mode: soft-light;
+  margin: 0;
+  z-index: 1;
+  margin-top: 5vw;
+  margin-left: 5vw;
 }
 </style>
