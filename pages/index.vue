@@ -42,6 +42,7 @@ export default {
   align-items: center;
   text-align: center;
 }
+
 /* 
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
@@ -71,31 +72,31 @@ export default {
   font-size: calc(10vw);
   font-family: Verdana, serif;
   margin: 0;
+  isolation: isolate;
   line-height: 0;
 }
 
 .first {
   color: palevioletred;
   margin: 0;
+  z-index: 1;
   margin-left: -5vw;
 }
 
 .second {
   color: navajowhite;
-  mix-blend-mode: color-burn;
+  mix-blend-mode: soft-light;
   margin: 0;
+  z-index: 1;
   margin-top: 5vw;
   margin-left: 0vw;
-  /* top: calc(5vw);
-  left: calc(5vw); */
 }
 
 .third {
-  /* top: calc(10vw);
-  left: calc(10vw); */
   color: darkturquoise;
-  mix-blend-mode: color-burn;
+  mix-blend-mode: soft-light;
   margin: 0;
+  z-index: 1;
   margin-top: 5vw;
   margin-left: 5vw;
 }
