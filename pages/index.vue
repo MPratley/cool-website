@@ -1,11 +1,19 @@
 <template>
   <section class="container">
     <div>
-      <h1 class="title">
-        Marcus Pratley <br> is a developer
-      </h1>
+      <div class="name-container">
+        <h1 class="first">
+          Marcus
+        </h1>
+        <h1 class="second">
+          James
+        </h1>
+        <h1 class="third">
+          Pratley
+        </h1>
+      </div>
       <h2 class="subtitle">
-        This is his website
+        is a developer, this is his website
       </h2>
       <div class="links">
         <NuxtLink
@@ -35,6 +43,7 @@ export default {
   text-align: center;
 }
 
+/* 
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -42,16 +51,53 @@ export default {
   font-weight: 400;
   font-size: 4em;
   color: var(--theme-color-accent);
-}
+} */
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
+  font-size: 5vw;
   word-spacing: 5px;
+  padding-top: 10vw;
   padding-bottom: 15px;
 }
 
 .links {
   padding-top: 15px;
+}
+</style>
+
+<style scoped>
+.name-container {
+  /* position: relative; */
+  font-size: calc(10vw);
+  font-family: Verdana, serif;
+  margin: 0;
+  isolation: isolate;
+  line-height: 0;
+}
+
+.first {
+  color: palevioletred;
+  margin: 0;
+  z-index: 1;
+  margin-left: -5vw;
+}
+
+.second {
+  color: navajowhite;
+  mix-blend-mode: soft-light;
+  margin: 0;
+  z-index: 1;
+  margin-top: 5vw;
+  margin-left: 0vw;
+}
+
+.third {
+  color: darkturquoise;
+  mix-blend-mode: soft-light;
+  margin: 0;
+  z-index: 1;
+  margin-top: 5vw;
+  margin-left: 5vw;
 }
 </style>
